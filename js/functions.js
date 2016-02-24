@@ -614,7 +614,6 @@ var SEMICOLON = SEMICOLON || {};
 				$content.css({ 'margin-bottom': 0 });
 			}
 		}
-
 	};
 
 	SEMICOLON.header = {
@@ -912,8 +911,6 @@ var SEMICOLON = SEMICOLON || {};
 				SEMICOLON.header.logo();
 			}
 		},
-
-
 	};
 
 	SEMICOLON.slider = {
@@ -1045,7 +1042,6 @@ var SEMICOLON = SEMICOLON || {};
 				});
 			}
 		}
-
 	};
 
 	SEMICOLON.widget = {
@@ -1437,7 +1433,6 @@ var SEMICOLON = SEMICOLON || {};
 			// el.darkLogo.css({'position':'absolute','z-index':'-100'});
 			// el.darkRetinaLogo.css({'position':'absolute','z-index':'-100'});
 		}
-
 	};
 
 	SEMICOLON.isMobile = {
@@ -1479,7 +1474,6 @@ var SEMICOLON = SEMICOLON || {};
 			}, 500 );
 
 		}
-
 	};
 
 	SEMICOLON.documentOnReady = {
@@ -1541,7 +1535,6 @@ var SEMICOLON = SEMICOLON || {};
 				});
 			}
 		}
-
 	};
 
 	SEMICOLON.documentOnLoad = {
@@ -1557,7 +1550,6 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.slider.owlCaptionInit();
 			SEMICOLON.header.responsiveMenuClass();
 		}
-
 	};
 
 	var $window = $(window),

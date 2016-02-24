@@ -12,15 +12,37 @@ module.exports = function(grunt) {
 //        dest: 'build/<%= pkg.name %>.min.js'
 //      }
 //    }
+      sass: {
+        options: {
+            includePaths: [
+            'bower_components/bootstrap-sass/assets/stylesheets'
+            ]
+        },
+        dist: {
+            files: {
+                'css/main.css': 'css/sass/main.scss'
+            }
+        }
+    },
+    watch: {
+      source: {
+        files: ['css/sass/**/*.scss'],
+        tasks: ['sass'],
+        options: {
+          livereload: true, // needed to run LiveReload
+        }
+      }
+    }
   });
 
   // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['sass', 'watch']);
 
 };

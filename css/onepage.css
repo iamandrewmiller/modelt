@@ -151,39 +151,6 @@ body.side-push-panel.side-panel-open.stretched #header .container { right: 300px
 	font-family: 'Roboto', sans-serif;
 }
 
-
-/* ----------------------------------------------------------------------------
-	Portfolio Overlay
----------------------------------------------------------------------------- */
-
-.portfolio-overlay { background-color: rgba(255,255,255,0.9); }
-
-.portfolio-overlay .portfolio-desc h3 {
-	font-size: 22px;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-.portfolio-overlay .portfolio-desc h3 a {
-	color: #333 !important;
-	text-shadow: none;
-}
-
-.portfolio-overlay .portfolio-desc span {
-	margin-top: 12px;
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-
-.portfolio-overlay .portfolio-desc span a {
-	color: #999 !important;
-	text-shadow: none;
-}
-
-
 /* ----------------------------------------------------------------------------
 	Buttons
 ---------------------------------------------------------------------------- */
@@ -239,34 +206,6 @@ body.side-push-panel.side-panel-open.stretched #header .container { right: 300px
 }
 
 .link-border:hover { border-color: #FFF; }
-
-
-/* ----------------------------------------------------------------------------
-	Team & Testimonials
----------------------------------------------------------------------------- */
-
-.team-title h4 {
-	font-weight: 600;
-	font-size: 17px;
-	letter-spacing: 2px;
-}
-
-.team-title span {
-	font-style: normal;
-	color: #999;
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 1px;
-	margin-top: 2px;
-}
-
-.team-social-icons {
-	position: absolute;
-	width: 100%;
-	bottom: 20px;
-}
-
-.dark .team-overlay:before { background-color: rgba(0,0,0,0.9); }
 
 .parallax .fslider * { -webkit-backface-visibility: hidden !important; }
 
@@ -431,64 +370,6 @@ textarea.border-form-control {
 }
 
 
-/* Large One Word in Slider
----------------------------------------------------------------------------- */
-
-.opm-large-word { font-size: 116px; }
-
-.device-sm .opm-large-word { font-size: 96px; }
-
-.device-xs .opm-large-word { font-size: 72px; }
-
-.device-xxs .opm-large-word { font-size: 54px; }
-
-
-/* Medium One Word in Slider
----------------------------------------------------------------------------- */
-
-.opm-medium-word { font-size: 96px; }
-
-.device-sm .opm-medium-word { font-size: 80px; }
-
-.device-xs .opm-medium-word { font-size: 60px; }
-
-.device-xxs .opm-medium-word { font-size: 48px; }
-
-
-/* Medium Before Heading
----------------------------------------------------------------------------- */
-
-.before-heading.opm-medium {
-	font-size: 30px;
-	font-style: normal;
-	margin: 0 0 0 5px;
-	line-height: 1;
-	letter-spacing: 12px;
-}
-
-.device-sm .before-heading.opm-medium { font-size: 22px; }
-
-.device-xs .before-heading.opm-medium { font-size: 18px; }
-
-.device-xxs .before-heading.opm-medium { font-size: 14px; }
-
-
-/* Large Counter in Slider
----------------------------------------------------------------------------- */
-
-.opm-large-counter {
-	font-size: 480px;
-	color: #F2F2F2;
-	line-height: 1;
-}
-
-.device-sm .opm-large-counter { font-size: 360px; }
-
-.device-xs .opm-large-counter { font-size: 220px; }
-
-.device-xxs .opm-large-counter { font-size: 150px; }
-
-
 /* Slider Grid Blocks
 ---------------------------------------------------------------------------- */
 
@@ -571,57 +452,6 @@ textarea.border-form-control {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
-.testimonials-lg { overflow: visible; }
-
-.testimonials-lg:before {
-	position: absolute;
-	top: -20px;
-	left: -30px;
-	content: "“";
-	color: rgba(0,0,0,0.07);
-	font-size: 144px;
-	line-height: 1;
-	font-family: 'Passion One';
-}
-
-.testimonials-lg .testi-content p {
-	font-size: 26px;
-	line-height: 1.6;
-	font-style: normal;
-	font-weight: 300;
-	font-family: 'Roboto', sans-serif;
-	color: #111;
-}
-
-.testimonials-lg .testi-content p:before,
-.testimonials-lg .testi-content p:after { content:''; }
-
-.testimonials-lg .testi-meta {
-	font-size: 14px;
-	font-weight: 400;
-	margin-top: 30px;
-	color: #999;
-}
-
-.testimonials-lg .testi-meta span {
-	font-size: 13px;
-	font-weight: 300;
-	color: #BBB;
-}
-
-
-
-/* ----------------------------------------------------------------------------
-	Dark
----------------------------------------------------------------------------- */
-
-
-.dark #header.sticky-header #header-wrap,
-#header.sticky-header.dark #header-wrap { border-bottom-color: rgba(255,255,255,0.1) !important; }
-
 
 /* ----------------------------------------------------------------------------
 	Responsive
