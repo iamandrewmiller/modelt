@@ -15,12 +15,15 @@ module.exports = function(grunt) {
       sass: {
         options: {
             includePaths: [
-            'bower_components/bootstrap-sass/assets/stylesheets'
+            'bower_components/bootstrap-sass/assets/stylesheets',
+            require("bourbon").includePaths,
+            require("bourbon-neat").includePaths
             ]
         },
         dist: {
             files: {
-                'css/main.css': 'css/sass/main.scss'
+                'css/main.css': 'css/sass/main.scss',
+                'css/main-bourbon.css': 'css/sass/main-bourbon.scss',
             }
         }
     },

@@ -32,7 +32,7 @@
 #header.full-header.border-full-header #header-wrap { border-bottom-color: rgba(0,0,0,0.05) !important; }
 
 .dark #header.full-header.border-full-header #header-wrap,
-#header.dark.full-header.border-full-header #header-wrap { border-bottom-color: rgba(255,255,255,0.15) !important; }
+#header.dark.full-header.border-full-header #header-wrap { border-bottom-color: transparent !important; }
 
 #header.transparent-header:not(.sticky-header) #header-wrap { background-color: transparent; }
 
@@ -115,9 +115,6 @@
 	height: 70px;
 	line-height: 70px;
 	padding: 0 22px;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 3px;
 }
 
 

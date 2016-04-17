@@ -13,7 +13,7 @@ small,
 .feature-box.fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
-.font-body { font-family: 'Lato', sans-serif; }
+.font-body { font-family: "merriweather", Georgia, serif; }
 
 h1,
 h2,
@@ -33,7 +33,7 @@ label,
 .nav-tree li a,
 .wedding-head .first-name,
 .wedding-head .last-name,
-.font-primary { font-family: 'Raleway', sans-serif; }
+.font-primary { font-family: "museo-sans", helvetica, sans-serif; }
 
 .entry-meta li,
 .entry-link span,
@@ -69,19 +69,6 @@ h6 {
 #logo {
     font-size: 36px;
     line-height: 100%;
-}
-
-#primary-menu ul li a {
-    font-weight: bold;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-#primary-menu ul ul a {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0;
 }
 
 #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a {
